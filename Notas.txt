@@ -1,0 +1,2 @@
+git remote add origin https://github.com/lrosso17/automatizacion.git // Subes tus cambios de local a github
+git clone https://github.com/lrosso17/automatizacion_2.git // bajas los cambios de github a local
