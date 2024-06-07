@@ -1,2 +1,12 @@
 git remote add origin https://github.com/lrosso17/automatizacion.git // Subes tus cambios de local a github
 git clone https://github.com/lrosso17/automatizacion_2.git // bajas los cambios de github a local
+
+
+git init // Inicializamos git en nuestro proyecto
+git remote add <url> // Conectamos git - github
+git chekcout -b <nombre_rama>
+git add . // Agrear al stage todos los archivos 
+git add prueba.js // Agrear al stage el archivo nombre_archivo
+git commit -m "Subiendo el archivo prueba.js al repositorio"  // ingresamos la descripcion del comit"
+git push origin <nombre_rama> // subir los cambios a git github
+git pull origin <nombre_rama> // traer los cambios de git github a mi entorno local
